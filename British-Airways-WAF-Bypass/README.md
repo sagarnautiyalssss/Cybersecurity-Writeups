@@ -4,7 +4,7 @@
 I discovered a Web Application Firewall (WAF) bypass on British Airways' infrastructure (`prelive-onbusiness.britishairways.com`). By using a **Path Normalization** technique, I was able to evade Akamai WAF rules that were protecting administrative endpoints.
 
 ## 🛠️ Technical Details
-* **Target:** `prelive-onbusiness.britishairways.com`
+* **Target:** `example.britishairways.com`
 * **WAF:** Akamai
 * **Bypass Payload:** `..;/`
 * **Vulnerability Type:** Authentication Bypass Using an Alternate Path
@@ -20,11 +20,7 @@ This confirms that the request bypassed the security perimeter and was processed
 ## 🚀 Impact
 Bypassing the WAF allows an attacker to perform unauthorized reconnaissance on internal endpoints. It enables automated scanning to discover hidden files, administrative interfaces (like Actuator endpoints), or configuration files that are intended to be shielded from the public internet.
 
-## 📸 Proof of Concept (PoC)
-> [!IMPORTANT]
 > Evidence screenshots showing the transition from 403 Forbidden to 401 Unauthorized/200 OK via the `..;/` payload.
-
-*(Add your blurred screenshots here)*
 
 ---
 **Status:** Reported via HackerOne | Closed as Informational/N/A (Backend was still protected by secondary auth).
