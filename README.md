@@ -7,7 +7,7 @@ Welcome to my security research portfolio. This repository contains detailed tec
 | Date | Bug Type | Target | Status | Write-up |
 | :--- | :--- | :--- | :--- | :--- |
 | 2026-04-16 | WAF Bypass (Path Normalization) | British Airways | Validated / N/A | [View Report](./British-Airways-WAF-Bypass/) |
+2026-04-22Infrastructure Fingerprinting & Info DisclosureQinetiQPendingView Report
 
-DateBug TypeTargetStatusWrite-up2026-04-22Infrastructure Fingerprinting & Info DisclosureQinetiQPendingView Report
----
+
 **Contact:** [ sagarnautiyal50@gmail.coml ]
